@@ -312,6 +312,7 @@ would you want to deposit?
         # If there are no errors, execute:
         try: 
             addMoney = int(input()) # Asks for the user's input, makes it an integer, and adds it to addMoney variable.
+            break # Breaks the loop.
         # If there's an error, execute:
         except:
             # Prints an invalid number input, and asks the user to add enter their input again.
